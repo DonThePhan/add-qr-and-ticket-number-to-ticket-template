@@ -21,14 +21,14 @@ def trim_qr(qr_path, trim_pixels=75):
     return img_cropped
 
 # Paths
-TEMPLATE_PATH = "Ticket_Template.pdf"
-QR_FOLDER = "qrs"
+TEMPLATE_PATH = "cet_printable_template.pdf"
+QR_FOLDER = "Cet_PaperTicket-Prod"
 OUTPUT_FOLDER = "generated_tickets"
 
 # Create output folder if it doesn't exist
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-DPI = 300
+DPI = 72
 
 # Card dimensions in points
 CARD_WIDTH = 2 * DPI  # 252pt
@@ -37,7 +37,7 @@ CARD_HEIGHT = 3.5 * DPI   # 144pt
 # QR code size and position (points)
 QR_SIZE = 1.17 * DPI    # 83.5pt
 QR_X = (CARD_WIDTH - QR_SIZE) / 2  # center horizontally
-QR_Y = CARD_HEIGHT - QR_SIZE - 50  # 10pt margin from top
+QR_Y = CARD_HEIGHT - QR_SIZE - 1/6 * DPI # 10pt margin from top
 
 # Load template PDF
 template_pdf = PdfReader(TEMPLATE_PATH)
@@ -53,8 +53,8 @@ for qr_file in os.listdir(QR_FOLDER):
         tmp_pdf_path = f"tmp_{ticket_number}.pdf"
         c = canvas.Canvas(tmp_pdf_path, pagesize=(CARD_WIDTH, CARD_HEIGHT))
         c.drawImage(ImageReader(trimmed_qr), QR_X, QR_Y, QR_SIZE, QR_SIZE)
-        c.setFont("Helvetica-Bold", 40)
-        c.drawCentredString(CARD_WIDTH / 2, QR_Y - 30, str(ticket_number))
+        c.setFont("Helvetica-Bold", 9.6)
+        c.drawCentredString(CARD_WIDTH / 2 + 15, CARD_HEIGHT / 2 - 16.5, str(ticket_number))
         c.save()
 
         # Load a fresh template for this ticket
@@ -72,5 +72,27 @@ for qr_file in os.listdir(QR_FOLDER):
             writer.write(f)
 
         print(f"Generated ticket: {ticket_number}")
+
+output_pdf = "cet_printable_tickets.pdf"
+
+# Get all PDF files in the folder and sort them alphabetically
+pdf_files = [f for f in os.listdir(OUTPUT_FOLDER) if f.lower().endswith(".pdf")]
+pdf_files.sort()  # Alphabetical order
+
+# Create a PDF writer object
+pdf_writer = PdfWriter()
+
+# Loop through each PDF and add its pages to the writer
+for pdf_file in pdf_files:
+    pdf_path = os.path.join(OUTPUT_FOLDER, pdf_file)
+    reader = PdfReader(pdf_path)
+    for page in reader.pages:
+        pdf_writer.add_page(page)
+
+# Write out the combined PDF
+with open(output_pdf, "wb") as f_out:
+    pdf_writer.write(f_out)
+
+print(f"Combined PDF created: {output_pdf}")
 
 print("All tickets generated!")
