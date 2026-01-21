@@ -44,55 +44,57 @@ QR_Y = CARD_HEIGHT - QR_SIZE - 1/6 * DPI # 10pt margin from top
 # Load template PDF
 template_pdf = PdfReader(TEMPLATE_PATH)
 
+def create_ticket_pdfs():
+    for qr_file in os.listdir(QR_FOLDER):
+        if qr_file.endswith(".png"):
+            ticket_number = os.path.splitext(qr_file)[0]
+            qr_path = os.path.join(QR_FOLDER, qr_file)
+            trimmed_qr = trim_qr(qr_path)
 
-for qr_file in os.listdir(QR_FOLDER):
-    if qr_file.endswith(".png"):
-        ticket_number = os.path.splitext(qr_file)[0]
-        qr_path = os.path.join(QR_FOLDER, qr_file)
-        trimmed_qr = trim_qr(qr_path)
+            # Create temporary PDF for QR
+            tmp_pdf_path = f"tmp_{ticket_number}.pdf"
+            c = canvas.Canvas(tmp_pdf_path, pagesize=(CARD_WIDTH, CARD_HEIGHT))
+            c.drawImage(ImageReader(trimmed_qr), QR_X, QR_Y, QR_SIZE, QR_SIZE)
+            c.setFont("Helvetica-Bold", 9.6)
+            c.drawString(CARD_WIDTH / 2 + 8, CARD_HEIGHT / 2 - 16.5, str(ticket_number))
+            c.save()
 
-        # Create temporary PDF for QR
-        tmp_pdf_path = f"tmp_{ticket_number}.pdf"
-        c = canvas.Canvas(tmp_pdf_path, pagesize=(CARD_WIDTH, CARD_HEIGHT))
-        c.drawImage(ImageReader(trimmed_qr), QR_X, QR_Y, QR_SIZE, QR_SIZE)
-        c.setFont("Helvetica-Bold", 9.6)
-        c.drawString(CARD_WIDTH / 2 + 8, CARD_HEIGHT / 2 - 16.5, str(ticket_number))
-        c.save()
+            # Load a fresh template for this ticket
+            template_pdf = PdfReader(TEMPLATE_PATH)  # << reload template each iteration
+            template_page = template_pdf.pages[0]
+            qr_pdf = PdfReader(tmp_pdf_path)
+            template_page.merge_page(qr_pdf.pages[0])
+            os.remove(tmp_pdf_path)
 
-        # Load a fresh template for this ticket
-        template_pdf = PdfReader(TEMPLATE_PATH)  # << reload template each iteration
-        template_page = template_pdf.pages[0]
-        qr_pdf = PdfReader(tmp_pdf_path)
-        template_page.merge_page(qr_pdf.pages[0])
-        os.remove(tmp_pdf_path)
+            # Save final ticket
+            output_path = os.path.join(OUTPUT_FOLDER, f"{ticket_number}.pdf")
+            writer = PdfWriter()
+            writer.add_page(template_page)
+            with open(output_path, "wb") as f:
+                writer.write(f)
 
-        # Save final ticket
-        output_path = os.path.join(OUTPUT_FOLDER, f"{ticket_number}.pdf")
-        writer = PdfWriter()
-        writer.add_page(template_page)
-        with open(output_path, "wb") as f:
-            writer.write(f)
+            print(f"Generated ticket: {ticket_number}")
+    print("All tickets generated!")
 
-        print(f"Generated ticket: {ticket_number}")
+def consolidate_pdfs():
+    output_pdf = "cet_printable_tickets.pdf"
 
+    # Get all PDF files in the folder and sort them alphabetically
+    pdf_files = [f for f in os.listdir(OUTPUT_FOLDER) if f.lower().endswith(".pdf")]
+    pdf_files.sort(key=lambda x: int(x.replace('.pdf', '')))
 
-output_pdf = "cet_printable_tickets.pdf"
+    merger = PdfMerger()
 
-# Get all PDF files in the folder and sort them alphabetically
-pdf_files = [f for f in os.listdir(OUTPUT_FOLDER) if f.lower().endswith(".pdf")]
-pdf_files.sort(key=lambda x: int(x.replace('.pdf', '')))
+    for pdf_file in pdf_files:
+        pdf_path = os.path.join(OUTPUT_FOLDER, pdf_file)
+        merger.append(pdf_path)
 
-merger = PdfMerger()
+    with open(output_pdf, "wb") as f_out:
+        merger.write(f_out)
 
-for pdf_file in pdf_files:
-    pdf_path = os.path.join(OUTPUT_FOLDER, pdf_file)
-    merger.append(pdf_path)
+    merger.close()
 
-with open(output_pdf, "wb") as f_out:
-    merger.write(f_out)
+    print(f"Combined PDF created: {output_pdf}")
 
-merger.close()
-
-print(f"Combined PDF created: {output_pdf}")
-
-print("All tickets generated!")
+create_ticket_pdfs()
+consolidate_pdfs()
