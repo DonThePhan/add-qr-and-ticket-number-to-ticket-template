@@ -1,5 +1,7 @@
 import os
-from PyPDF2 import PdfReader, PdfWriter
+import time
+
+from PyPDF2 import PdfReader, PdfWriter, PdfMerger
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
 from PIL import Image
@@ -54,7 +56,7 @@ for qr_file in os.listdir(QR_FOLDER):
         c = canvas.Canvas(tmp_pdf_path, pagesize=(CARD_WIDTH, CARD_HEIGHT))
         c.drawImage(ImageReader(trimmed_qr), QR_X, QR_Y, QR_SIZE, QR_SIZE)
         c.setFont("Helvetica-Bold", 9.6)
-        c.drawCentredString(CARD_WIDTH / 2 + 15, CARD_HEIGHT / 2 - 16.5, str(ticket_number))
+        c.drawString(CARD_WIDTH / 2 + 8, CARD_HEIGHT / 2 - 16.5, str(ticket_number))
         c.save()
 
         # Load a fresh template for this ticket
@@ -73,25 +75,23 @@ for qr_file in os.listdir(QR_FOLDER):
 
         print(f"Generated ticket: {ticket_number}")
 
+
 output_pdf = "cet_printable_tickets.pdf"
 
 # Get all PDF files in the folder and sort them alphabetically
 pdf_files = [f for f in os.listdir(OUTPUT_FOLDER) if f.lower().endswith(".pdf")]
-pdf_files.sort()  # Alphabetical order
+pdf_files.sort(key=lambda x: int(x.replace('.pdf', '')))
 
-# Create a PDF writer object
-pdf_writer = PdfWriter()
+merger = PdfMerger()
 
-# Loop through each PDF and add its pages to the writer
 for pdf_file in pdf_files:
     pdf_path = os.path.join(OUTPUT_FOLDER, pdf_file)
-    reader = PdfReader(pdf_path)
-    for page in reader.pages:
-        pdf_writer.add_page(page)
+    merger.append(pdf_path)
 
-# Write out the combined PDF
 with open(output_pdf, "wb") as f_out:
-    pdf_writer.write(f_out)
+    merger.write(f_out)
+
+merger.close()
 
 print(f"Combined PDF created: {output_pdf}")
 
