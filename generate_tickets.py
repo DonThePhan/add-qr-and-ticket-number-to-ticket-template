@@ -24,7 +24,7 @@ def trim_qr(qr_path, trim_pixels=75):
 
 # Paths
 TEMPLATE_PATH = "cet_printable_template.pdf"
-QR_FOLDER = "Cet_PaperTicket-Prod"
+QR_FOLDER = "qrs"
 OUTPUT_FOLDER = "generated_tickets"
 
 # Create output folder if it doesn't exist
@@ -40,9 +40,6 @@ CARD_HEIGHT = 3.5 * DPI   # 144pt
 QR_SIZE = 1.17 * DPI    # 83.5pt
 QR_X = (CARD_WIDTH - QR_SIZE) / 2  # center horizontally
 QR_Y = CARD_HEIGHT - QR_SIZE - 1/6 * DPI # 10pt margin from top
-
-# Load template PDF
-template_pdf = PdfReader(TEMPLATE_PATH)
 
 def create_ticket_pdfs():
     for qr_file in os.listdir(QR_FOLDER):
@@ -96,5 +93,5 @@ def consolidate_pdfs():
 
     print(f"Combined PDF created: {output_pdf}")
 
-create_ticket_pdfs()
+# create_ticket_pdfs()
 consolidate_pdfs()

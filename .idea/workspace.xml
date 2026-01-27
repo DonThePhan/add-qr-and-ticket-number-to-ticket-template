@@ -1,208 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="374221f2-f6ae-4e5b-86ca-bc46705fbbe4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2034.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2058.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2059.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2060.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2061.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2062.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2063.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2064.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2065.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2066.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2067.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2068.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2069.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2070.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2071.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2072.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2073.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2074.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2075.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2076.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2077.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2078.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2079.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2080.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2081.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2082.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2083.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2084.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2085.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2086.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2087.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2088.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2089.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2090.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2091.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2092.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2093.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2094.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2095.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2096.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2097.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2098.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2099.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2102.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2103.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2104.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2105.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2106.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2107.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2108.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2109.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2111.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2112.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2113.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2115.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2116.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2117.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2118.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2119.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2121.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2122.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2123.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2124.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2126.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2127.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2129.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2130.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2131.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2132.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2133.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2134.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2135.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2136.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2137.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2138.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2139.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2140.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2141.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2142.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2143.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2145.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2146.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2147.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2148.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2149.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2151.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2153.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2154.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2155.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2156.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2157.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2158.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2159.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2160.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2161.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2162.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2163.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2164.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2165.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2166.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2167.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2168.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2169.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2170.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2171.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2172.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2173.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2174.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2175.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2176.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2177.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2178.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2179.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2181.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2182.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2183.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2184.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2185.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2186.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2187.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2188.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2189.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2190.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2191.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2193.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2194.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2195.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2196.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2197.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2198.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2199.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2201.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2202.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2203.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2204.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2205.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2206.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2207.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2208.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2209.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2210.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2211.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2212.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2213.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2214.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2215.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2216.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2217.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2218.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2219.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2220.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2221.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2222.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2223.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2224.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2225.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2226.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2227.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2228.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2229.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2230.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2231.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2232.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2233.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2234.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2235.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2236.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2237.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2238.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2239.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2241.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2242.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2243.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2245.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2246.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2247.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2248.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2249.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2250.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2251.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2252.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2253.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2254.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2255.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cet_PaperTicket-Prod/2257.png" afterDir="false" />
+    <list default="true" id="374221f2-f6ae-4e5b-86ca-bc46705fbbe4" name="Changes" comment="separate functions for creating pdfs and consolidating them">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cet_PaperTicket-Prod/100.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cet_PaperTicket-Prod/1000.png" beforeDir="false" />
@@ -2233,18 +2033,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.generate_tickets.executor": "Run",
-    "Python.measurePdfSize.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/donny/work/add-qr-and-ticket-number-to-ticket-template/Cet_PaperTicket-Prod",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.generate_tickets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.measurePdfSize.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/donny/work/add-qr-and-ticket-number-to-ticket-template/Cet_PaperTicket-Prod&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Cet_PaperTicket-Prod" />
@@ -2286,12 +2086,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769014091696</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="separate functions for creating pdfs and consolidating them">
+      <option name="closed" value="true" />
+      <created>1769027846479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769027846479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="can now create combined pdf with all complete tickets" />
     <MESSAGE value="pdf merge fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="pdf merge fixed" />
+    <MESSAGE value="separate functions for creating pdfs and consolidating them" />
+    <option name="LAST_COMMIT_MESSAGE" value="separate functions for creating pdfs and consolidating them" />
   </component>
 </project>
