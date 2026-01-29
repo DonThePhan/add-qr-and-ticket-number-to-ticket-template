@@ -1,3 +1,6 @@
-/generated_tickets/
+/generate_tickets/**
+!/generate_tickets/
+/qrs/**
+!/qrs/
 /cet_printable_tickets.pdf
 .idea/
