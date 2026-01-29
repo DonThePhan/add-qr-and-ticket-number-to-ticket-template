@@ -1,6 +1,6 @@
-/generate_tickets/**
-!/generate_tickets/
-/qrs/**
-!/qrs/
+/generated_tickets/
+!/generate_tickets/.gitkeep
+/qrs/
+!/qrs/.gitkeep
 /cet_printable_tickets.pdf
 .idea/
